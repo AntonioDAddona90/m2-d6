@@ -1,0 +1,109 @@
+
+  <!-- Completa gli esercizi dall'1 al 6 SOLAMENTE con HTML:
+
+  ES.1: Inserisci un tag h1 con il nome del tuo negozio
+
+  ES.2: Aggiungi una tabella con i 5 prodotti più in vista del tuo negozio
+
+  ES.3: Aggiungi per ogni prodotto un'immagine, un titolo, una descrizione e un prezzo
+
+  ES.4: Per ogni elemento della tabella aggiungi un link di Amazon al prodotto esistente
+
+  ES.5: Aggiungi un footer con il nome e l'indirizzo del tuo negozio
+
+  ES.6: Aggiungi un campo testuale in cui l'utente può lasciare un commento su un prodotto (al momento non serve inserire
+  nessuna "vera" funzionalità di post/salvataggio!)
+  
+  
+  Il resto delle risposte deve essere scritto in JavaScript:
+  
+  
+  ES.7: Scrivi una funzione per cambiare il contenuto del tag h1 in qualcos'altro
+
+  ES.8: Scrivi una funzione per cambiare il colore di background della pagina
+
+  ES.9: Scrivi una funzione per cambiare l'indirizzo presente nel futuro in un altro, fittizio
+
+  ES.10: Scrivi una funzione per aggiungere una classe CSS ad ogni link Amazon della tabella
+
+  ES.11: Scrivi una funzione per aggiungere/togliere una classe CSS a tutte le immagini della tabella; questa classe deve modificare la visibilità/invisibilità dell'immagine
+
+  ES.12: Scrivi una funzione per cambiare il colore del prezzo di ogni prodotto in uno differente, ogni volta che viene invocata -->
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>il mio negozio Negozio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ES.1: Inserisci un tag h1 con il nome del tuo negozio -->
+  <h1>ecommerce iphone</h1>
+
+  <!-- ES.2: Aggiungi una tabella con i 5 prodotti più in vista del tuo negozio -->
+  <table>
+    <tr>
+      <th>Prodotto</th>
+      <th>Immagine</th>
+      <th>Titolo</th>
+      <th>Descrizione</th>
+      <th>Prezzo</th>
+      <th>Link Amazon</th>
+    </tr>
+    <!-- ES.3: Aggiungi per ogni prodotto un'immagine, un titolo, una descrizione e un prezzo -->
+    <tr>
+      <td>1</td>
+      <td><img src="./download (1).jpg" alt="Prodotto 1"></td>
+      <td>Prodotto 1</td>
+      <td>Descrizione del prodotto 1</td>
+      <td>$19.99</td>
+      <!-- ES.4: Per ogni elemento della tabella aggiungi un link di Amazon al prodotto esistente -->
+      <td><a href="https://www.amazon.com/prodotto1">Amazon</a></td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td><img src="./download (2).jpg" alt="Prodotto 2"></td>
+      <td>Prodotto 2</td>
+      <td>Descrizione del prodotto 2</td>
+      <td>$29.99</td>
+      <td><a href="https://www.amazon.com/prodotto2">Amazon</a></td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td><img src="./download (3).jpg" alt="Prodotto 3"></td>
+      <td>Prodotto 2</td>
+      <td>Descrizione del prodotto 2</td>
+      <td>$29.99</td>
+      <td><a href="https://www.amazon.com/prodotto3">Amazon</a></td>
+    </tr><tr>
+      <td>4</td>
+      <td><img src="./download (4).jpg" alt="Prodotto 4"></td>
+      <td>Prodotto 2</td>
+      <td>Descrizione del prodotto 2</td>
+      <td>$29.99</td>
+      <td><a href="https://www.amazon.com/prodotto4">Amazon</a></td>
+    </tr><tr>
+      <td>5</td>
+      <td><img src="./download.jpg" alt="Prodotto 5"></td>
+      <td>Prodotto 2</td>
+      <td>Descrizione del prodotto 2</td>
+      <td>$29.99</td>
+      <td><a href="https://www.amazon.com/prodotto5">Amazon</a></td>
+    </tr>
+  </table>
+
+  <!-- ES.5: Aggiungi un footer con il nome e l'indirizzo del tuo negozio -->
+  <footer>
+    <div>ecommerce iphone</div>
+    <div>montecalvo irpino (AV)</div>
+  </footer>
+
+  <!-- ES.6: Aggiungi un campo testuale in cui l'utente può lasciare un commento su un prodotto -->
+  <textarea placeholder="Lascia un commento sul prodotto"></textarea>
+  <input type="text" placeholder="Il tuo nome">
+
+  <script src="script.js"></script>
+</body>
+</html>
